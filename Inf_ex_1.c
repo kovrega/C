@@ -102,11 +102,6 @@ void printf_arr(int* arr, int* N) {
 
 
 
-struct Extremum{
-    int ind_max;
-    int ind_min;
-};
-
 struct Extremum find_extremums(int* arr, int* N){
     struct Extremum ext;
 
